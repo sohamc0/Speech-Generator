@@ -1,7 +1,9 @@
 # Political Speech Generator
-If you are a person who is struggling to come across topics to cover on your next public speech to address the state of the U.S.A., look no further! This LSTM will fill out a sentence given a prompt which will be treated as the initial few words. 
+If you are a person who is struggling to come across topics to cover on your next public speech look no further! This LSTM will fill out a sentence given a prompt which will be treated as the initial few words. 
 
 ## Usage
+Your machine must have the following packages installed...
+* ```scipy==1.11.4```, ```tensorflow==2.15.0```, ```gensim==4.3.2```, and ```numpy```\
 Go into the src directory and run ```python gen.py```. You will then be prompted to start off your sentence with a few words of your choice.
 
 ## Chosen Corpus and Data Cleansing
